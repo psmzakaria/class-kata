@@ -15,11 +15,11 @@ class Waiter {
   }
 }
 
+console.log(waiter1.name);
 const waiter1 = new Waiter("Moshi");
 console.log(
-    waiter1.takeOrder(["Chicken Rice", "Chilli Sauce", "Ice Lemon Tea"])
+  waiter1.takeOrder(["Chicken Rice", "Chilli Sauce", "Ice Lemon Tea"])
 );
 waiter1.repeatOrder();
 // This is another way to excecute.
-// console.log(waiter1.name);
 // const order1 = ["Chicken Rice", "Chilli Sauce", "Ice Lemon Tea"];
